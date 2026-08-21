@@ -1,0 +1,364 @@
+[0.178s] Invoking command in '/home/yezi/ros2/chapt4/chapt4_ws/build/example_ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yezi/ros2/chapt4/chapt4_ws/install/example_interfaces_rclpy:/opt/ros/humble /usr/bin/cmake /home/yezi/ros2/chapt4/chapt4_ws/example_ros_interfaces -DCMAKE_INSTALL_PREFIX=/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces
+[0.184s] [33mCMake Warning (deprecated) at CMakeLists.txt:1 (cmake_minimum_required):
+[0.184s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.184s]   CMake.
+[0.184s] 
+[0.184s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.184s]   to tell CMake that the project requires at least <min> but has been updated
+[0.184s]   to work with policies introduced by <max> or earlier.
+[0.184s] This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+[0.184s] to suppress it.
+[0.184s] [0m
+[0.228s] -- The C compiler identification is GNU 11.4.0
+[0.278s] -- The CXX compiler identification is GNU 11.4.0
+[0.286s] -- Detecting C compiler ABI info
+[0.348s] -- Detecting C compiler ABI info - done
+[0.358s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.359s] -- Detecting C compile features
+[0.359s] -- Detecting C compile features - done
+[0.371s] -- Detecting CXX compiler ABI info
+[0.454s] -- Detecting CXX compiler ABI info - done
+[0.465s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.465s] -- Detecting CXX compile features
+[0.465s] -- Detecting CXX compile features - done
+[0.481s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.577s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.641s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.643s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.648s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.682s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.712s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.060s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.419s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.877s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.878s] [33mCMake Warning (policy) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[1.878s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.878s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.878s]   the cmake_policy command to set the policy and suppress this warning.
+[1.878s] Call Stack (most recent call first):
+[1.878s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.879s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.879s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.879s] This warning is for project developers.  Use -Wno-author or -Wno-policy to
+[1.879s] suppress it.
+[1.879s] [0m
+[1.893s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[1.894s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.894s] [33mCMake Warning (policy) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[1.894s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.894s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.894s]   the cmake_policy command to set the policy and suppress this warning.
+[1.894s] Call Stack (most recent call first):
+[1.894s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.894s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.894s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.895s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.895s] This warning is for project developers.  Use -Wno-author or -Wno-policy to
+[1.895s] suppress it.
+[1.895s] [0m
+[1.909s] [33mCMake Warning (policy) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[1.909s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.909s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.909s]   the cmake_policy command to set the policy and suppress this warning.
+[1.909s] Call Stack (most recent call first):
+[1.909s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.909s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.909s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.910s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.910s] This warning is for project developers.  Use -Wno-author or -Wno-policy to
+[1.910s] suppress it.
+[1.910s] [0m
+[1.915s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[1.915s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.915s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.915s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.931s] -- Found PythonExtra: .so
+[2.085s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.100s] -- Added test 'lint_cmake' to check CMake code style
+[2.101s] -- Added test 'xmllint' to check XML markup files
+[2.103s] -- Configuring done (1.9s)
+[2.147s] -- Generating done (0.0s)
+[2.160s] -- Build files have been written to: /home/yezi/ros2/chapt4/chapt4_ws/build/example_ros_interfaces
+[2.168s] Invoked command in '/home/yezi/ros2/chapt4/chapt4_ws/build/example_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yezi/ros2/chapt4/chapt4_ws/install/example_interfaces_rclpy:/opt/ros/humble /usr/bin/cmake /home/yezi/ros2/chapt4/chapt4_ws/example_ros_interfaces -DCMAKE_INSTALL_PREFIX=/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces
+[2.169s] Invoking command in '/home/yezi/ros2/chapt4/chapt4_ws/build/example_ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yezi/ros2/chapt4/chapt4_ws/install/example_interfaces_rclpy:/opt/ros/humble /usr/bin/cmake --build /home/yezi/ros2/chapt4/chapt4_ws/build/example_ros_interfaces -- -j8 -l8
+[2.199s] [  2%] [1m[34mGenerating C code for ROS interfaces[0m
+[2.207s] [  4%] [1m[34mGenerating Rust code for ROS interfaces[0m
+[2.207s] [  6%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[2.215s] [  6%] Built target ament_cmake_python_copy_example_ros_interfaces
+[2.379s] [  6%] Built target example_ros_interfaces__rs
+[2.389s] running egg_info
+[2.389s] creating example_ros_interfaces.egg-info
+[2.389s] writing example_ros_interfaces.egg-info/PKG-INFO
+[2.389s] writing dependency_links to example_ros_interfaces.egg-info/dependency_links.txt
+[2.389s] writing top-level names to example_ros_interfaces.egg-info/top_level.txt
+[2.389s] writing manifest file 'example_ros_interfaces.egg-info/SOURCES.txt'
+[2.390s] reading manifest file 'example_ros_interfaces.egg-info/SOURCES.txt'
+[2.391s] writing manifest file 'example_ros_interfaces.egg-info/SOURCES.txt'
+[2.412s] [  6%] Built target ament_cmake_python_build_example_ros_interfaces_egg
+[2.434s] [ 12%] [32mBuilding C object CMakeFiles/example_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/example_ros_interfaces/msg/detail/robot_status__functions.c.o[0m
+[2.434s] [ 12%] [32mBuilding C object CMakeFiles/example_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/example_ros_interfaces/msg/detail/robot_pose__functions.c.o[0m
+[2.434s] [ 12%] [32mBuilding C object CMakeFiles/example_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/example_ros_interfaces/srv/detail/move_robot__functions.c.o[0m
+[2.434s] [ 12%] Built target example_ros_interfaces__cpp
+[2.442s] [ 16%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.442s] [ 16%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[2.442s] [ 18%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.472s] [ 20%] [1m[32mLinking C shared library libexample_ros_interfaces__rosidl_generator_c.so[0m
+[2.500s] [ 20%] Built target example_ros_interfaces__rosidl_generator_c
+[2.509s] [ 22%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[2.510s] [ 25%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[2.511s] [ 27%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[2.614s] [ 29%] [32mBuilding CXX object CMakeFiles/example_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/example_ros_interfaces/msg/robot_status__type_support.cpp.o[0m
+[2.614s] [ 31%] [32mBuilding CXX object CMakeFiles/example_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/example_ros_interfaces/msg/robot_pose__type_support.cpp.o[0m
+[2.626s] [ 33%] [32mBuilding CXX object CMakeFiles/example_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/example_ros_interfaces/srv/move_robot__type_support.cpp.o[0m
+[2.641s] [ 35%] [32mBuilding CXX object CMakeFiles/example_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/example_ros_interfaces/msg/detail/robot_pose__type_support.cpp.o[0m
+[2.674s] [ 37%] [32mBuilding CXX object CMakeFiles/example_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/example_ros_interfaces/msg/detail/dds_fastrtps/robot_pose__type_support.cpp.o[0m
+[2.700s] [ 39%] [32mBuilding CXX object CMakeFiles/example_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/example_ros_interfaces/msg/robot_pose__type_support.cpp.o[0m
+[2.722s] [ 41%] [32mBuilding CXX object CMakeFiles/example_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/example_ros_interfaces/msg/robot_status__type_support.cpp.o[0m
+[2.738s] [ 43%] [32mBuilding C object CMakeFiles/example_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/example_ros_interfaces/msg/detail/robot_pose__type_support.c.o[0m
+[2.745s] [ 45%] [32mBuilding CXX object CMakeFiles/example_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/example_ros_interfaces/srv/move_robot__type_support.cpp.o[0m
+[2.754s] [ 47%] [32mBuilding CXX object CMakeFiles/example_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/example_ros_interfaces/msg/detail/robot_pose__type_support_c.cpp.o[0m
+[2.766s] [ 50%] [32mBuilding C object CMakeFiles/example_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/example_ros_interfaces/msg/detail/robot_status__type_support.c.o[0m
+[2.772s] [ 52%] [1m[32mLinking CXX shared library libexample_ros_interfaces__rosidl_typesupport_c.so[0m
+[2.787s] [ 54%] [32mBuilding CXX object CMakeFiles/example_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/example_ros_interfaces/msg/detail/robot_status__type_support.cpp.o[0m
+[2.791s] [ 56%] [32mBuilding C object CMakeFiles/example_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/example_ros_interfaces/srv/detail/move_robot__type_support.c.o[0m
+[2.792s] [ 58%] [32mBuilding CXX object CMakeFiles/example_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/example_ros_interfaces/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o[0m
+[2.800s] [ 60%] [1m[32mLinking CXX shared library libexample_ros_interfaces__rosidl_typesupport_cpp.so[0m
+[2.806s] [ 60%] Built target example_ros_interfaces__rosidl_typesupport_c
+[2.815s] [ 62%] [32mBuilding CXX object CMakeFiles/example_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/example_ros_interfaces/msg/detail/robot_status__type_support_c.cpp.o[0m
+[2.816s] [ 64%] [1m[32mLinking C shared library libexample_ros_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.835s] [ 64%] Built target example_ros_interfaces__rosidl_typesupport_cpp
+[2.842s] [ 66%] [32mBuilding CXX object CMakeFiles/example_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/example_ros_interfaces/srv/detail/move_robot__type_support.cpp.o[0m
+[2.843s] [ 66%] Built target example_ros_interfaces__rosidl_typesupport_introspection_c
+[2.849s] [ 68%] [32mBuilding CXX object CMakeFiles/example_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/example_ros_interfaces/srv/detail/dds_fastrtps/move_robot__type_support.cpp.o[0m
+[2.885s] [ 70%] [32mBuilding CXX object CMakeFiles/example_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/example_ros_interfaces/srv/detail/move_robot__type_support_c.cpp.o[0m
+[3.063s] [ 72%] [1m[32mLinking CXX shared library libexample_ros_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.081s] [ 75%] [1m[32mLinking CXX shared library libexample_ros_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.085s] [ 77%] [1m[32mLinking CXX shared library libexample_ros_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.107s] [ 77%] Built target example_ros_interfaces__rosidl_typesupport_introspection_cpp
+[3.135s] [ 77%] Built target example_ros_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.135s] [ 77%] Built target example_ros_interfaces__rosidl_typesupport_fastrtps_c
+[3.150s] [ 77%] Built target example_ros_interfaces
+[3.164s] [ 79%] [1m[34mGenerating Python code for ROS interfaces[0m
+[3.446s] [ 79%] Built target example_ros_interfaces__py
+[3.461s] [ 81%] [32mBuilding C object CMakeFiles/example_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/example_ros_interfaces/msg/_robot_pose_s.c.o[0m
+[3.461s] [ 83%] [32mBuilding C object CMakeFiles/example_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/example_ros_interfaces/msg/_robot_status_s.c.o[0m
+[3.461s] [ 85%] [32mBuilding C object CMakeFiles/example_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/example_ros_interfaces/srv/_move_robot_s.c.o[0m
+[3.535s] [ 87%] [1m[32mLinking C shared library rosidl_generator_py/example_ros_interfaces/libexample_ros_interfaces__rosidl_generator_py.so[0m
+[3.567s] [ 87%] Built target example_ros_interfaces__rosidl_generator_py
+[3.582s] [ 91%] [32mBuilding C object CMakeFiles/example_ros_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/example_ros_interfaces/_example_ros_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.582s] [ 91%] [32mBuilding C object CMakeFiles/example_ros_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/example_ros_interfaces/_example_ros_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.583s] [ 93%] [32mBuilding C object CMakeFiles/example_ros_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/example_ros_interfaces/_example_ros_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.653s] [ 95%] [1m[32mLinking C shared library rosidl_generator_py/example_ros_interfaces/example_ros_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.654s] [ 97%] [1m[32mLinking C shared library rosidl_generator_py/example_ros_interfaces/example_ros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.656s] [100%] [1m[32mLinking C shared library rosidl_generator_py/example_ros_interfaces/example_ros_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.682s] [100%] Built target example_ros_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.683s] [100%] Built target example_ros_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.685s] [100%] Built target example_ros_interfaces__rosidl_typesupport_c__pyext
+[3.693s] Invoked command in '/home/yezi/ros2/chapt4/chapt4_ws/build/example_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yezi/ros2/chapt4/chapt4_ws/install/example_interfaces_rclpy:/opt/ros/humble /usr/bin/cmake --build /home/yezi/ros2/chapt4/chapt4_ws/build/example_ros_interfaces -- -j8 -l8
+[3.700s] Invoking command in '/home/yezi/ros2/chapt4/chapt4_ws/build/example_ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yezi/ros2/chapt4/chapt4_ws/install/example_interfaces_rclpy:/opt/ros/humble /usr/bin/cmake --install /home/yezi/ros2/chapt4/chapt4_ws/build/example_ros_interfaces
+[3.705s] -- Install configuration: ""
+[3.705s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/ament_index/resource_index/rosidl_interfaces/example_ros_interfaces
+[3.706s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces
+[3.706s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv
+[3.706s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/move_robot.h
+[3.706s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail
+[3.706s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail/move_robot__struct.h
+[3.706s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail/move_robot__functions.c
+[3.706s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail/move_robot__type_support.h
+[3.706s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail/move_robot__functions.h
+[3.706s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg
+[3.706s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.707s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/robot_status.h
+[3.707s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/robot_pose.h
+[3.707s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail
+[3.707s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_status__struct.h
+[3.707s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_status__functions.c
+[3.707s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_pose__type_support.h
+[3.707s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_pose__functions.c
+[3.707s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_pose__functions.h
+[3.707s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_status__type_support.h
+[3.707s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_status__functions.h
+[3.707s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_pose__struct.h
+[3.707s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/environment/library_path.sh
+[3.707s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/environment/library_path.dsv
+[3.708s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/lib/libexample_ros_interfaces__rosidl_generator_c.so
+[3.708s] -- Set non-toolchain portion of runtime path of "/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/lib/libexample_ros_interfaces__rosidl_generator_c.so" to ""
+[3.708s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces
+[3.708s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv
+[3.708s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail
+[3.708s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail/move_robot__rosidl_typesupport_fastrtps_c.h
+[3.708s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg
+[3.708s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.708s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail
+[3.708s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+[3.708s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+[3.709s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/lib/libexample_ros_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.709s] -- Set non-toolchain portion of runtime path of "/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/lib/libexample_ros_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.709s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces
+[3.709s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv
+[3.709s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail
+[3.709s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail/move_robot__rosidl_typesupport_introspection_c.h
+[3.709s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail/move_robot__type_support.c
+[3.709s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg
+[3.709s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail
+[3.709s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_status__type_support.c
+[3.709s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+[3.709s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_pose__rosidl_typesupport_introspection_c.h
+[3.710s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_pose__type_support.c
+[3.710s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.710s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/lib/libexample_ros_interfaces__rosidl_typesupport_introspection_c.so
+[3.710s] -- Set non-toolchain portion of runtime path of "/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/lib/libexample_ros_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.710s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/lib/libexample_ros_interfaces__rosidl_typesupport_c.so
+[3.710s] -- Set non-toolchain portion of runtime path of "/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/lib/libexample_ros_interfaces__rosidl_typesupport_c.so" to ""
+[3.710s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces
+[3.710s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv
+[3.710s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/move_robot.hpp
+[3.710s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail
+[3.710s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail/move_robot__type_support.hpp
+[3.711s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail/move_robot__struct.hpp
+[3.711s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail/move_robot__builder.hpp
+[3.711s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail/move_robot__traits.hpp
+[3.711s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg
+[3.711s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/robot_pose.hpp
+[3.711s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/robot_status.hpp
+[3.711s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.711s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail
+[3.711s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_pose__struct.hpp
+[3.712s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_pose__type_support.hpp
+[3.712s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_pose__builder.hpp
+[3.712s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_status__traits.hpp
+[3.712s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_pose__traits.hpp
+[3.712s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_status__builder.hpp
+[3.712s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_status__type_support.hpp
+[3.712s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_status__struct.hpp
+[3.712s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces
+[3.712s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv
+[3.712s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail
+[3.713s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail/move_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[3.713s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail/dds_fastrtps
+[3.713s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg
+[3.713s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.713s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail
+[3.713s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[3.713s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/dds_fastrtps
+[3.713s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[3.713s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/lib/libexample_ros_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.713s] -- Set non-toolchain portion of runtime path of "/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/lib/libexample_ros_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.713s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces
+[3.713s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv
+[3.713s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail
+[3.713s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail/move_robot__type_support.cpp
+[3.714s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/srv/detail/move_robot__rosidl_typesupport_introspection_cpp.hpp
+[3.714s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg
+[3.714s] -- Up-to-date: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail
+[3.714s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_pose__type_support.cpp
+[3.714s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_status__type_support.cpp
+[3.714s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+[3.714s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/include/example_ros_interfaces/example_ros_interfaces/msg/detail/robot_pose__rosidl_typesupport_introspection_cpp.hpp
+[3.714s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/lib/libexample_ros_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.714s] -- Set non-toolchain portion of runtime path of "/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/lib/libexample_ros_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.714s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/lib/libexample_ros_interfaces__rosidl_typesupport_cpp.so
+[3.715s] -- Set non-toolchain portion of runtime path of "/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/lib/libexample_ros_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.715s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/environment/pythonpath.sh
+[3.715s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/environment/pythonpath.dsv
+[3.715s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces-0.0.0-py3.10.egg-info
+[3.715s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.715s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.715s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.715s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.715s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces
+[3.715s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/_example_ros_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.715s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/libexample_ros_interfaces__rosidl_generator_py.so
+[3.716s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/example_ros_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.716s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/example_ros_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.716s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/__init__.py
+[3.716s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/example_ros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.716s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/srv
+[3.716s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/srv/__init__.py
+[3.716s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/srv/_move_robot_s.c
+[3.716s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/srv/_move_robot.py
+[3.716s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/_example_ros_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.716s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/msg
+[3.716s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/msg/_robot_status_s.c
+[3.716s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/msg/__init__.py
+[3.716s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/msg/_robot_pose_s.c
+[3.716s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/msg/_robot_pose.py
+[3.716s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/msg/_robot_status.py
+[3.716s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/_example_ros_interfaces_s.ep.rosidl_typesupport_c.c
+[3.742s] Listing '/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces'...
+[3.742s] Compiling '/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/__init__.py'...
+[3.742s] Listing '/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/msg'...
+[3.742s] Compiling '/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/msg/__init__.py'...
+[3.742s] Compiling '/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/msg/_robot_pose.py'...
+[3.742s] Compiling '/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/msg/_robot_status.py'...
+[3.742s] Listing '/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/srv'...
+[3.742s] Compiling '/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/srv/__init__.py'...
+[3.742s] Compiling '/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/srv/_move_robot.py'...
+[3.744s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/example_ros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.745s] -- Set non-toolchain portion of runtime path of "/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/example_ros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.745s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/example_ros_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.745s] -- Set non-toolchain portion of runtime path of "/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/example_ros_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.745s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/example_ros_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.746s] -- Set non-toolchain portion of runtime path of "/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/local/lib/python3.10/dist-packages/example_ros_interfaces/example_ros_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.746s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/lib/libexample_ros_interfaces__rosidl_generator_py.so
+[3.746s] -- Set non-toolchain portion of runtime path of "/home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/lib/libexample_ros_interfaces__rosidl_generator_py.so" to ""
+[3.746s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/ament_index/resource_index/rust_packages/example_ros_interfaces
+[3.747s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/rust
+[3.747s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/rust/Cargo.toml
+[3.747s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/rust/src
+[3.747s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/rust/src/srv.rs
+[3.747s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/rust/src/lib.rs
+[3.747s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/rust/src/msg.rs
+[3.747s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/rust/src/srv
+[3.747s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/rust/src/srv/rmw.rs
+[3.747s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/rust/src/msg
+[3.747s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/rust/src/msg/rmw.rs
+[3.747s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/rust/build.rs
+[3.748s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/msg/RobotPose.idl
+[3.748s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/msg/RobotStatus.idl
+[3.748s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/srv/MoveRobot.idl
+[3.748s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/msg/RobotPose.msg
+[3.748s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/msg/RobotStatus.msg
+[3.748s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/srv/MoveRobot.srv
+[3.748s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/srv/MoveRobot_Request.msg
+[3.748s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/srv/MoveRobot_Response.msg
+[3.748s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/ament_index/resource_index/package_run_dependencies/example_ros_interfaces
+[3.748s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/ament_index/resource_index/parent_prefix_path/example_ros_interfaces
+[3.748s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/environment/ament_prefix_path.sh
+[3.748s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/environment/ament_prefix_path.dsv
+[3.748s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/environment/path.sh
+[3.749s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/environment/path.dsv
+[3.749s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/local_setup.bash
+[3.749s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/local_setup.sh
+[3.749s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/local_setup.zsh
+[3.749s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/local_setup.dsv
+[3.749s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/package.dsv
+[3.749s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/ament_index/resource_index/packages/example_ros_interfaces
+[3.749s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/export_example_ros_interfaces__rosidl_generator_cExport.cmake
+[3.749s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/export_example_ros_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.749s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/export_example_ros_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.749s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/export_example_ros_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/example_ros_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/example_ros_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/example_ros_interfaces__rosidl_typesupport_cExport.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/example_ros_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/export_example_ros_interfaces__rosidl_generator_cppExport.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/export_example_ros_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/export_example_ros_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/example_ros_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/example_ros_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/example_ros_interfaces__rosidl_typesupport_cppExport.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/example_ros_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/export_example_ros_interfaces__rosidl_generator_pyExport.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/export_example_ros_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.750s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.751s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/example_ros_interfacesConfig.cmake
+[3.751s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/cmake/example_ros_interfacesConfig-version.cmake
+[3.751s] -- Installing: /home/yezi/ros2/chapt4/chapt4_ws/install/example_ros_interfaces/share/example_ros_interfaces/package.xml
+[3.752s] Invoked command in '/home/yezi/ros2/chapt4/chapt4_ws/build/example_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yezi/ros2/chapt4/chapt4_ws/install/example_interfaces_rclpy:/opt/ros/humble /usr/bin/cmake --install /home/yezi/ros2/chapt4/chapt4_ws/build/example_ros_interfaces
